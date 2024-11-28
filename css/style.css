@@ -1,0 +1,677 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-transform: capitalize;
+background-color:rgb(231, 229, 229);
+}
+.div-hedear{
+width: 100%;
+height: 60px;
+background-color:B9855B;
+position: fixed;
+top: 0;
+z-index: 999;
+}
+.list1{
+float: right;
+}
+.list1 a{
+display: inline;
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 25px;
+}
+.a-home{
+text-decoration: underline !important;
+}
+.list1 li{
+display: inline-block;
+margin: 10px 35px 0 0 ;
+}
+.put1-hedear{
+font-size: 25px;
+border-radius: 15px;
+}
+.icon1-head{
+margin-left:-300px;
+padding-left: 5px;
+font-size: 20px;
+}
+.icon-home{
+font-size: 30px;
+padding-right: 10px;
+margin: 10px 0 0 10px;
+color: rgb(255, 255, 255);
+}
+.div-home{
+background-image: url(../imgs/DALL·E\ 2024-11-15\ 17.14.37\ -\ A\ cozy\ bakery\ interior\ with\ a\ warm\,\ inviting\ atmosphere\,\ featuring\ wooden\ shelves\ filled\ with\ fresh\ bread\,\ pastries\,\ and\ cakes.\ Soft\ lighting\ enhances.webp);
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+position: relative;
+background-attachment: fixed;
+}
+.div-overlay{
+background-color: rgba(0, 0, 0, 0.466);
+top: 0;
+width: 100%;
+height: 100vh;
+}
+.div-contant{
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50% );
+position:absolute ;
+text-align: center;
+}    
+.tittle-home{
+font-size: 70px;
+color: rgb(255, 255, 255);
+}
+.p-home{
+font-size: 30px;
+color: rgb(221, 221, 221);
+margin: 10px 0px;
+}
+.btn-home{
+width: 130px;
+height: 50px;
+border-radius: 7px;
+font-size: 20px;
+cursor: pointer;
+}
+.btn-home:hover{
+opacity: 0.4;
+}
+.btn2-home{
+background-color:B9855B;
+}
+.tittle-sec2{
+text-align: center;
+font-size: 45px;
+margin: 80px 0 10px 0;
+}
+.div-line1{
+height: 5px;
+width: 150px;
+background-color: rgb(190, 29, 29);
+margin: auto;
+margin-bottom: 50px;
+}
+.div-sec2{
+width: 100%;
+height: 80vh;
+overflow: auto;
+text-align: center;
+}
+.div-fully1{
+width: 400px;
+height: 350px;
+border: 2px solid;
+text-align: center;
+float: left;
+margin-left: 170px;
+padding: 30px;
+position: relative;
+}
+.div-fully1:after{
+content:"" ;
+width:0 ;
+height:0 ;
+top: 0;
+left: 0;
+transition: 1s;
+background-color: rgb(0, 0, 0);
+position: absolute;
+}
+.div-fully1:hover::after {
+width: 100%;
+height: 100%;
+opacity: 0.3;
+}
+.div-fully1:hover{
+background-color: rgb(22, 13, 105);
+transition: 2s;
+}
+.div-fully1 i{
+font-size: 30px;
+margin-bottom: 20px;
+}
+.tittle-fully{
+font-size: 40px;
+}
+.p-fully{
+font-size: 20px;
+margin: 30px 0px;
+}
+.part1 , .part2 {
+position: relative;
+z-index: 100;
+}
+.div-fully1 a{
+text-decoration: none;
+font-size: 22px;
+color: rgb(196, 16, 16);
+}
+.div-fully1:hover .part2 {
+color: rgb(255, 255, 255);
+}
+.div-fully1:hover .part1 {
+color: rgb(255, 187, 0);
+}
+.div-container-sec3{
+height: 80vh;
+width: 80%;
+margin: auto;
+text-align: center;
+}
+.div-home-sec3{
+width: 100%;
+height: 90vh;
+background-color: rgb(158, 154, 154);
+}
+.tittle-sec3{
+font-size: 40px;
+margin-top: 100px;
+}
+.div-img-sec3{
+background-image: url(../imgs/1.jpg);
+width: 300px;
+height: 200px;
+position: relative;
+float: left;
+margin: 30px 0 0 150px ;
+background-size: cover;
+}   
+.imgg2{
+background-image: url(../imgs/13131313.webp);
+}
+.imgg3{
+background-image: url(../imgs/10101011.webp);
+}
+.imgg4{
+background-image: url(../imgs/12.png);
+}
+.imgg5{
+background-image: url(../imgs/13.jpg);
+}
+.imgg6{
+background-image: url(../imgs/WhatsApp\ Image\ 2024-11-24\ at\ 16.39.16_ee35cbb2.jpg);
+}                                                             
+.div-info-sec3{
+position: absolute;
+margin: 20px 0 0 70px;
+top: 0;
+height: 100%;
+color: aliceblue;
+}
+.h2-div1-sec3{
+font-size: 40px;
+}
+.p1-div1-sec3{
+font-size: 25px;
+margin: 20px 0px;
+}
+.icon-sec3{
+font-size: 35px;
+width: 60px;
+background-color: rgb(114, 113, 113) ;
+border-radius: 10px;
+cursor: pointer;
+}
+.div-overlay-sec3{
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.726);
+position: absolute;
+visibility: hidden;
+}
+.div-img-sec3:hover .div-overlay-sec3{
+visibility: visible;
+}
+.div-line1{
+margin-top: 10px;
+margin-bottom: 30px;
+}
+.tittle-sec4{
+font-size: 40px;
+text-align: center;
+margin-top: 150px;
+}     
+.div-pearent1-sec4 ,.div-pearent2-sec4 {
+overflow: auto;
+}    
+.div1-sec4{
+float: left;
+border: 1px solid rgb(0, 0, 0);
+width: 350px;
+height: 250px;
+margin: 0 0 100px 220px;
+position: relative;
+}
+.div-info-sec4{
+position: absolute;
+padding: 15px;
+}
+.div1-sec4:after{
+content: "";
+width: 0;
+height: 0;
+top: 0;
+left: 0;
+background-color: rgb(18, 18, 92);
+transition: 1s;
+position: absolute;
+}
+.div1-sec4:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.3;
+}
+.div1-sec4:hover .div-info-sec4{
+ color: rgb(255, 255, 255); 
+}
+.div1-sec4:hover{
+background-color: rgb(23, 3, 114);
+transition: 2s;
+}
+.tittle1-sec4{
+display: inline;
+font-size: 30px;
+margin: 20px 0px;
+}
+.icon1-sec4{
+font-size: 25px;
+color: rgb(172, 13, 13);
+}
+.p1-sec4{
+margin-top: 30px;
+}
+.icon1-sec4 , .tittle1-sec4 , .p1-sec4{
+position: relative;
+z-index: 100;
+}
+.div-sec5{
+width: 100%;
+height: 100vh;
+overflow: auto;
+margin-top: -60px;
+}
+.div-info-sec5{
+width: 40%;
+margin-left: 150px;
+margin-top: 400px;
+margin: 400px 0 0 150px ;
+font-size: 25px;
+line-height: 50px;
+}
+.div-img-sec5{
+width: 400px;
+height: 600px;
+float: right;
+margin: -500px 250px 0 0 ;
+}
+.ul1-sec5{
+list-style: none;
+}
+.ul2-sec5 a {
+display: inline-block;
+font-size: 45px;
+color: rgb(44, 44, 43);
+margin: -10px 0 0 25px;
+}
+.ul2-sec5 {
+text-align: center;
+}
+.ul2-sec5 a:hover {
+color: rgb(255, 0, 0);
+}
+.p1-sec5{
+font-size: 20px;
+line-height: 20px;
+margin-bottom: 20px;
+}
+.tittle-sec5{
+margin-bottom: 25px;
+}
+.line2-sec5{
+width: 70px;
+height: 5px;
+background-color: blue;
+margin: -30px 0 30px 0 ;
+}
+.home-sec6{
+width: 100%;
+height: 50vh;
+background-image: url(../imgs/DALL·E\ 2024-11-15\ 17.14.31\ -\ A\ cozy\ bakery\ interior\ with\ a\ warm\,\ inviting\ atmosphere\,\ featuring\ wooden\ shelves\ filled\ with\ fresh\ bread\,\ pastries\,\ and\ cakes.\ Soft\ lighting\ enhances.webp);
+background-repeat: no-repeat;
+background-size: cover;
+margin-top: 150px;
+position: relative;
+background-attachment: fixed;
+}
+.div-overlay-sec6{
+overflow: auto;
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+text-align: center;
+background-color: rgba(0, 0, 0, 0.74);
+}
+.div-icon1-sec6{
+color: rgb(255, 255, 255);
+float: left;
+line-height: 40px;
+font-size: 35px;
+margin: 200px 0 0 230px;
+}
+.icon-sec6{
+    color: B9855B;
+}
+.p1-sec6{
+margin-top: 15px; 
+color: rgb(255, 255, 255);
+font-size: 30px;
+}
+.p2-sec6{
+color: rgb(226, 226, 226);
+font-size: 30px;
+}
+.div-home-sec7{
+width: 100%;
+height: 80vh;
+}
+.tittle-sec7{
+text-align: center;
+margin-top: 100px;
+font-size: 60px;
+}
+.div1-sec7{
+width: 300px;
+height: 400px;
+border: 1px solid;
+text-align: center;
+float: left;
+margin: 100px 0 0 250px ;
+padding: 20px;
+line-height: 50px;
+position: relative;
+}
+.div1-sec7:after{
+content: "";
+width: 100%;
+height: 0;
+top: 0;
+left: 0;
+background-color: rgb(0, 0, 0);
+transition: 1s;
+position: absolute;
+}
+.div1-sec7:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.3;
+}
+.div-log-sec7{
+margin: auto;
+width: 100px;
+height: 100px;
+border: 2px solid;
+border-radius: 50%;
+font-size: 25px;
+line-height: 40px;
+background-attachment: fixed;
+}
+.div1-sec7:hover .div-log-sec7{
+color: rgb(121, 0, 0);
+}
+.p1-log-sec7{
+color: rgb(156, 16, 16);
+}
+.btn-div1-sec7{
+width: 180px;
+height: 30px;
+border-radius: 8px;
+font-size: larger;
+}
+.div-line3{
+width: 200px;
+height: 6px;
+background-color: blue; 
+margin: auto;
+margin-top: 20px;
+margin-bottom: -40px;
+}
+.div1-sec7:hover{
+background-color: rgb(13, 13, 99);
+transition: 1s;
+color: rgb(255, 255, 255);
+}
+.div1-sec7:hover .btn-div1-sec7{
+background-color: rgb(255, 193, 60);
+transition: 1s;
+}
+.tittle1-sec7 , .div-log-sec7 , .h1-div1-sec7 , .btn-div1-sec7{
+position: relative;
+z-index: 100;
+}
+.div-sec8{
+background-image: url(../imgs/DALL·E\ 2024-11-15\ 17.14.37\ -\ A\ cozy\ bakery\ interior\ with\ a\ warm\,\ inviting\ atmosphere\,\ featuring\ wooden\ shelves\ filled\ with\ fresh\ bread\,\ pastries\,\ and\ cakes.\ Soft\ lighting\ enhances.webp);
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+width: 100%;
+height: 60vh;
+position: relative;
+}
+.div-overlay-sec8{
+top: 0;
+width: 100%;
+height: 60vh;
+background-color: rgba(0, 0, 0, 0.719);
+}
+.div-info-sec8{
+color: aliceblue;
+}
+.div-pareant-sec8{
+float: left;
+margin: 200px 0 0 300px;
+}
+.div-pareant2-sec8{
+float: right;
+margin: 200px 300px 0 0 ;
+}
+.div-info-sec8{
+margin: -100px 0 0 120px;
+line-height: 40px;
+font-size: 20px;
+}
+.img-sec8{
+border-radius: 50%;
+}
+.h3-sec8{
+color: rgb(218, 218, 218);
+}
+.p1-sec8{
+color: rgb(187, 183, 183);
+}
+.tittle-sec9{
+text-align: center;
+font-size: 50px;
+margin: 130px 0 100px 0 ;
+}
+.div-container-sec9{
+width: 90%;
+margin: auto;
+height: 80vh;
+}
+.div-pareant-sec9{
+ overflow: auto;
+}
+.div-content-sec9{
+width: 30%;
+height: 300px;
+background-color: rgb(121, 121, 121);
+float: left;
+text-align: center;
+position: relative;
+}
+.div-content-sec9:after{
+content:"";
+width:100% ;
+height: 0;
+top: 0;
+left: 0;
+transition: 1s;
+background-color: rgb(58, 7, 100);
+position: absolute;
+}
+.div-content-sec9:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.2;
+}
+.div2-sec9{
+margin: 0px 5%;
+}
+.div-img-sec9{
+width: 80%;
+position: relative;
+border: 1px solid;
+margin: auto;
+}
+.div-img-sec9 img{
+width: 100%;
+}
+.div-overlay-sec9{
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.705);
+visibility: hidden;
+}
+.div-content-sec9:hover .div-overlay-sec9{
+visibility: visible;
+}
+.div-overlay-sec9 a{
+display: block;
+font-size: 30px;
+background-color: rgb(234, 255, 255);
+color: rgb(40, 40, 197);
+margin-left: 370px;
+}
+.div-overlay-sec9 a i{
+line-height: 40px;
+}
+.div-info-sec9{
+font-size: 20PX;
+}
+.div-content-sec9:hover .div-info-sec9{
+color: aliceblue;
+}
+.a-sec9 , .h2-info-sec9 , .p-info-sec9 {
+position: relative;
+z-index: 100;
+}
+.div-line4{
+width: 120px;
+height: 5px;
+background-color: blueviolet;
+margin: auto;
+margin-top: -90px;
+margin-bottom: 60px;
+}
+.tittle-sec10{
+text-align: center;
+font-size: 50px;
+padding: 50px;
+}
+.div-continer-sec10{
+width: 70%;
+margin: auto;
+height: 85vh;
+}
+.div-pareant-sec10{
+overflow: auto;
+}
+.div-contant-sec10{
+width: 30%;
+border: 1px solid;
+float: left;
+text-align: center;
+padding: 10px ;
+position: relative;
+}
+.div-contant-sec10:after{
+content:"";
+width:100% ;
+height: 0;
+top: 0;
+left: 0;
+transition: 1s;
+background-color: rgb(11, 11, 161);
+position: absolute;
+}
+.div-contant-sec10:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.3;
+}
+.div2-sec10{
+margin: 0 5% ;
+}
+.div-icon-sec10{
+font-size: 23px;
+padding: 10px;
+}
+.a-sec10{
+color: rgb(0, 26, 255);
+}
+.div-info-sec10{
+padding: 10px ;
+font-size: 20px;
+}
+.div-info-sec10{
+text-decoration: none;
+}
+.a-sec10 , .spa-sec10 , .div-info-sec10{
+position: relative;
+z-index: 100;
+}
+.div-line5{
+width: 120px;
+height: 5px;
+background-color: rgb(36, 21, 241);
+margin: auto;
+margin-top: -40px;
+margin-bottom: 60px;
+}
+.div-end{
+width: 100%;
+background-color: rgb(196, 191, 191);
+text-align: center;
+}
+.div-icon-end{
+font-size: 40px;
+margin-top: 20px;
+}
+.div-icon-end a{
+color: rgb(0, 26, 255);
+}
+.div-icon-end .p-end{
+font-size: small;
+margin-top: 10px;
+}
+.img102{
+margin-top: 20px;
+border-radius: 20px;
+}
